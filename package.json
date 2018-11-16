@@ -1,0 +1,29 @@
+{
+  "name": "thesaurus-example-florian4300",
+  "version": "1.0.0",
+  "description": "Your job is to implement a command-line [Thesaurus](https://en.wikipedia.org/wiki/Thesaurus) tool in Node.js using TypeScript. Use the [openthesaurus.de](https://www.openthesaurus.de/) word database as the data source for your tool. You can download the database in text format [here](https://www.openthesaurus.de/export/OpenThesaurus-Textversion.zip).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"npx tsc thesaurus.ts",
+    "run":"node thesaurus.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/htl-perg-2018-19-4ahif/thesaurus-example-florian4300.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/htl-perg-2018-19-4ahif/thesaurus-example-florian4300/issues"
+  },
+  "homepage": "https://github.com/htl-perg-2018-19-4ahif/thesaurus-example-florian4300#readme",
+  "dependencies": {
+    "commander": "^2.19.0",
+    "node": "^11.1.0",
+    "typescript": "^3.1.6"
+  },
+  "devDependencies": {
+    "@types/node": "^10.12.9"
+  }
+}
